@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0; }
+  body nav {
+    background-color: #007bff; }
+    body nav .navbar-brand {
+      padding: 0;
+      margin: 0; }
+    body nav li {
+      background-color: none;
+      transition: background-color 1s; }
+      body nav li:hover {
+        background-color: #4383b4;
+        border-radius: 3px; }
+  body .tituloPrincipal{
+    font-size: 6rem ;
+    color: white;}
+  body a{
+    text-decoration: none;
+    color: white;}
+  body .portada {
+    background-image: url("../images/perro3.jpg");
+    min-height: 90vh;
+    background-size: cover; }
+    body .portada .titulo {
+      height: 80vh; }
+  body main section {
+    min-height: 82vh;
+    max-width: 1920px;
+    margin: auto; }
+    body main section .cards article .card {
+      margin: auto;
+      max-width: 400px; }
+    body main section form {
+      max-width: 500px; }
+  body footer p {
+    padding: 0;
+    margin: 0; }
+
+   
+
+@media (min-width: 300px) and (max-width: 599px) {
+  header .navbar a {
+    font-size: 0.8rem; }
+  main section {
+    width: 100vw; }
+    main section div article p {
+      font-size: 0.8rem; }
+    main section .group1 {
+      flex-direction: column; }
+    main section .group-hidden {
+      display: none; }
+    main section .cards {
+      flex-direction: column; }
+      main section .cards article .card .card-body .card-text {
+        font-size: 0.8rem; }
+    main section form {
+      margin: auto;
+      width: 300px; } 
+    
+      body .tituloPrincipal{
+        font-size: 2rem ;
+        color: white;}}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  header .navbar a {
+    font-size: 1.3rem; }
+  header .titulo {
+    width: 100%; }
+  main {
+    width: 100vw; }
+    main section {
+      width: 100%; }
+      main section .cards {
+        flex-direction: column; }
+        main section .cards article .card .card-body .card-text {
+          font-size: 1.3rem; }
+      main section form {
+        margin: auto;
+        width: 300px; } 
+      
+  body .tituloPrincipal{
+      font-size: 3rem ;
+      color: white;}}
+  
